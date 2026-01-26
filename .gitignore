@@ -1,3 +1,91 @@
+# Standard .gitignore for a Java / Gradle project
+
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# Archives
+*.zip
+*.tar.gz
+
+# Generated directories
+/build/
+/out/
+/target/
+/bin/
+
+# Gradle
+/.gradle/
+build/
+
+# Keep the Gradle wrapper JAR
+!gradle/wrapper/gradle-wrapper.jar
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# NetBeans
+nbproject/private/
+nbbuild/
+dist/
+.nb-gradle/
+
+# VS Code
+.vscode/
+
+# Maven
+/target/
+
+# Test output
+/build/outputs/
+/build/test-results/
+surefire-reports/
+
+# Logs and databases
+/logs/
+*.log
+*.sql
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Sensitive / local config
+.env
+local.properties
+keystore.jks
+*.jks
+*.keystore
+
+# Dependency directories
+.m2/repository/
+
+# Coverage
+jacoco.exec
+
+# IDE specific
+.idea/
+.vscode/
+
+# Temporary files
+*~
+*.tmp
 .gradle
 build
 .idea/
