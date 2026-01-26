@@ -36,7 +36,7 @@ import net.runelite.client.ui.overlay.OverlayManager;
 @PluginDescriptor(
 	name = "Vorky Trainer",
 	description = "Visual guidance for Vorkath melee mechanics (no automation).",
-	enabledByDefault = false
+	enabledByDefault = true
 )
 public class VorkyTrainerPlugin extends Plugin
 {
